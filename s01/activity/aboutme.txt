@@ -1,3 +1,5 @@
 Carl Wyndel Asoy
 
 My motivation in joining this Open House Workshop is to refresh my knowledge in basic programming, Git, HTML, and CSS, in preparation for upcoming internship or job opportunities.
+
+I am a fresh graduate of the Computer Science program. In the past, I have worked on various projects using Django, React, and ASP.NET, with a primary interest in front-end and web development.
