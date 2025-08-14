@@ -1,0 +1,77 @@
+
+<!-- This is a comment -->
+<!-- 
+	This is a multi-line comment
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <meta> elements usually add other information about the page -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <title> sets the title of the tab shown in the browser -->
+		<title>Introduction to HTML</title>
+	</head>
+	<body>
+
+		<!-- <h1> creates a heading 1 text -->
+		<!-- Add an id called top -->
+		<h1 id="top">Zuitt Coding Bootcamp</h1>
+		<a href="#bottom">Link to Bottom</a>
+
+		<!-- <h2> creates a smaller heading than <h1> -->
+		<h2>John Doe</h2>
+
+		<!-- <p> tag creates a paragraph text -->
+		<!-- Introductory Paragraph -->
+		<p>
+			Welcome to Zuitt! 
+			<!-- <br> creates a break between text -->
+			<br>
+			Let's enumerate the things we will study in this Free Coding Camp
+		</p>
+
+		<h3>Free Coding Bootcamp</h3>
+
+		<!-- <ol> creates an ordered list with number indicators by default -->
+		<ol>
+			<!-- <li> creates a list of items -->
+			<li>Git Basics</li>
+			<li>HTML Tags</li>
+			<li>HTML Attributes and Hyperlinks</li>
+			<li>CSS Selectors</li>
+			<li>CSS Rule Set</li>
+		</ol>
+
+		<div>
+			<h4>Relative Links</h4>
+			<a href="./attributes.html">Attribute Page</a>
+			<a href="./pages/links.html">Links Page</a>
+			<a href="./index.html">Home Page</a>
+		</div>
+
+		<div id="images">
+			<!-- Applying relative links using images -->
+			<br>
+			<img src="./images/picture1.png">
+			<br>
+			<img src="./images/picture2.png">
+			<br>
+			<img src="./images/picture3.png">
+			<br>
+		</div>
+
+		<br>
+
+		<div id="bottom">
+			
+			<h4>Relative Links within the Same Page</h4>
+
+			<!-- #top - refers back to the id attribute with value top -->
+			<a href="#top">Back to top</a>
+
+		</div>
+
+	</body>
+</html>
